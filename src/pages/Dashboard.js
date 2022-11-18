@@ -41,9 +41,9 @@ const Dashboard = () => {
     return str;
   };
 
-  if (loading) {
-    return <Spinner />;
-  }
+  // if (loading) {
+  //   return <Spinner />;
+  // }
 
   const handleDelete = (id) => {
     if (window.confirm("Are you sure you want to delete this blog ?")) {

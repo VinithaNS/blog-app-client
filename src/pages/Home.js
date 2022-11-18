@@ -16,9 +16,9 @@ const Home = () => {
     dispatch(getBlogs());
   }, []);
 
-  if (loading) {
-    return <Spinner />;
-  }
+  // if (loading) {
+  //   return <Spinner />;
+  // }
   return (
     <div
       style={{
